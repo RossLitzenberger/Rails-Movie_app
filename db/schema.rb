@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20150225223227) do
   create_table "movies", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
-    t.string   "moive_length"
+    t.string   "movie_length"
     t.string   "director"
     t.string   "rating"
     t.datetime "created_at",         null: false
