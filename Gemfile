@@ -14,6 +14,7 @@ gem 'devise'
 gem 'paperclip'
 gem 'bootstrap-sass'
 gem 'sprockets-rails'
+gem 'searchkick', '~> 0.8.3'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
